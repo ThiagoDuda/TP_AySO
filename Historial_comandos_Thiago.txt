@@ -1,0 +1,202 @@
+exit
+ls
+whoami
+pwd
+echo
+echo "Hola"
+echo $HOME
+echo $VAGRANT
+man echo
+man man
+cd repogit/
+ls
+git clone https://github.com/ThiagoDuda/repo_duda.git
+cd repo_duda/
+ls
+history > historial.txt
+cat historial.txt 
+git status
+cd ..
+ls
+cd repo_duda/
+ls
+git add .
+git commit -m "Primer Commit"
+ls
+cd repogit/
+ls
+repo_duda/
+git config --global user.email "thiagoaduda@gmail.com"
+git config --global user.name "ThiagoDuda"
+git commit git commit -m "Primer Commit"
+.git
+git commit git commit -m "Primer Commit"
+exit
+ssh-keygen -t ed25519
+ls -la
+cd .ssh/
+ls -l
+cat id_ed25519.pub
+ls
+xd .ssh
+cd .ssh
+cat  id_ed25519.pub 
+cd ..
+cd repogit/
+ls
+ls - l
+ls -l
+rm -r repo_duda/
+sudo rm -r repo_duda/
+ls -l
+git clone git@github.com:ThiagoDuda/repo_duda.git
+ls
+cd repo_duda/
+echo "hola" > hola.txt
+ls
+git status
+git add .
+git status
+git commit -m "Primer comit"
+git push
+ls -l
+ls -la
+cat /etc/passwd
+head -n2 /etc/passwd
+grep bash /etc/passwd
+vagrant halt
+halt
+clear
+ls
+cd repogit
+ls
+cd repo_duda/
+ls
+cat historial.txt 
+clear
+cd ..
+cd repogit/
+cd ..
+pwd
+ssh-keygen -t ed25519
+SHA256:52JBbPgaEYN5cZTUKcl5xRU5jdPOHxSpdgwSGXdTrzo
+VMPruebas
+SHA256:52JBbPgaEYN5cZTUKcl5xRU5jdPOHxSpdgwSGXdTrzo
+exit
+ls
+cd repogit/
+ls
+git clone git@github.com:ThiagoDuda/TP_AySO.git
+ls
+cd TP_AySO/
+ls -l
+cat /etc/os-release 
+man grep
+grep -i Home_url /etc/os-release 
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+ls
+cat datos_usuario.txt 
+git add .
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuario.txt"
+git status
+cat /proc/
+ls proc
+ls /proc/
+cat /proc/cpuinfo 
+cat /proc/cpuinfo | grep model name | head -n1
+cat /proc/cpuinfo | grep "model name" | head -n1
+cat /proc/cpuinfo | grep "model name" | head -n1 >> datos_usuario.txt 
+cat datos_usuario.txt 
+git commit -m "feat:Añadiendo informacion de CPU"
+git add .
+git commit -m "feat:Añadiendo informacion de CPU"
+git status
+cat /etc/passwd
+man grep
+cat /etc/passwd | grep -v "nologin" | head -n10
+clear
+cat /etc/passwd | grep -v "nologin" | head -n10
+cat /etc/passwd | grep -v "nologin" 
+cat /etc/passwd
+cat /etc/passwd | grep -v "nologin" 
+clear
+cat /etc/passwd
+cat /etc/passwd | grep -v "nologin" 
+man sort
+cat /etc/passwd | grep -v "nologin" | head -n10 | sort -t ":" -k 7,7 > lista_ordenada.txt
+cat lista_ordenada.txt 
+clear
+cat lista_ordenada.txt 
+git add .
+git commit -m "ADD: Listado de usuarios ordenada"
+git status
+hlp
+help
+help dump traffic
+help dump 
+help "dump"
+man -k
+man -k capture
+man apros
+man apropos
+apropos capture
+man -k capture
+tcpdump
+sudo tcpdump
+sudo man -k capture
+man tcpdump
+help
+clear
+man -k
+yes
+cleaar
+clear
+man -k
+man -k capture
+tcpdump
+sudo tcpdump
+git status
+sudo apt-update
+sudo apt-get update
+sudo apt-get install tcpdump
+man -k capture
+man tcp
+clear
+which tcpdump
+man -k
+man -k network
+man -k traffic
+apropos network
+apropos traffic
+find /usr/bin -name "*dump*"
+echo "tcpdump" > comando_dump_net.txt
+echo "man tcpdump" >> comando_dump_net.txt 
+git add .
+git commit -m "ADD: Comando para Capturar y analizar trafico de red"
+git status
+Hola
+cat << END
+var1 = "Hola"
+cat << END
+
+
+
+
+cat << END
+cat << EOF >> README.md 
+Alumno: Thiago Duda
+Division: 311
+Turno: Noche
+EOF
+
+cat README.md 
+git add .
+git -m commit "feat: Añadiendo nombre division y turno"
+git commit -m "feat: Añadiendo nombre division y turno"
+git status
+cd ..
+cat .bash_history 
+cd repogit/
+cd TP_AySO/
+history -a
